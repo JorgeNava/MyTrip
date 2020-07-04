@@ -1,0 +1,312 @@
+/** HEAD SECTION **/
+.head-section{
+    width: 100vw;
+    height: 40vh;
+    background-image: url("../img/Profiles/hombrebck1.jpg");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -15vh;
+
+}
+.bck-layer{
+    background-color: var(--light_purple);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.head-content{
+    width: 65vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0.5em;
+}
+.head-content h1{
+    font-size: 1em;
+    color: white;
+}
+.head-content p{
+    font-size: 0.5em;
+    color: white;
+}
+.shrbttn{
+    font-size: .4em;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 2em;
+    text-transform: uppercase;
+    margin-right: 2em;
+    border: none;
+    font-weight: 900;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    transition-duration: 0.4s;
+}
+.shrbttn:hover{
+    color: var(--purple);
+    background-color: white;
+}
+/** MAIN SECTION **/
+.main-section{
+    width: 100vw;
+    height: 300vh;
+    background-color: var(--gray); 
+
+}
+.marging-div{
+    width: 100vw;
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;  
+}
+/** ASIDE PROFILE **/
+.aside-profile{
+    width: 25vw;
+    height: fit-content;
+    margin-top: -30vh;
+    position: relative;
+    box-shadow: 0 0 0.3em black;
+}
+.profile-img{
+    width: 100%;
+    height: 70vh;
+    background-image: url("../img/Personas/hombre4.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -2vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.cntctbttn{
+    font-family: 'EB Garamond', serif;
+    font-size: .5em;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 2em;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 700;
+    color: var(--purple);
+    background-color: white;
+    transition-duration: 0.4s;
+    margin-bottom: 4vh;
+}
+.cntctbttn:hover{
+    font-weight: normal;
+    color: white;
+    background-color: rgb(140, 109, 190);
+}
+.optionbttn{
+    font-size: .6em;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    text-transform: uppercase;
+    border: 1px solid white;
+    font-weight: 900;
+    color: white;
+    background-color: transparent;
+    transition-duration: 0.4s;
+    margin-bottom: 4vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.optionbttn:hover{
+    color: white;
+    background-color: var(--light_purple);
+    border: none;
+}
+/** ASIDE PROFILE CONTENT **/
+.profile-content{
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: var(--secundary_font);
+}
+.padding-content{
+    padding: 2vh 2vw;
+}
+.profile-content h1{
+    font-size: .6em;
+    text-transform: uppercase;
+}
+.profile-content p{
+    font-size: .55em;
+}
+.profile-content b{
+    font-size: .55em;
+}
+.profile-details{
+    margin: 2vh 0;
+    padding: 1vh 0;
+    border-bottom: 1px solid var(--purple);
+    border-top: 1px solid var(--purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+.details-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.details-row b{
+    padding-right: 1vw;
+}
+.profile-special p:first-of-type{
+    font-weight: bold;
+    color: var(--purple);
+}
+.profile-special ul{
+    margin: 1vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;    
+}
+.special-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.profile-leng{
+    margin: 4vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-leng ul{
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile-leng ul p{
+    padding: 1.5vh 1.5vw;
+    background-color: var(--light_purple);
+}
+.profile-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-footer h2{
+    font-size: .9em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: var(--purple);
+}
+.profile-footer h2::after{
+    color: black;
+    content: " TRIP";
+}
+.p-footer-d{
+    height: 0.5vh;
+    width: 15vw;
+    background-color: var(--light_purple);
+}
+
+/** PROFILE REVIEWS **/
+.profile-reviews{
+    width: 60vw;
+    height: 250vh;
+}
+.extra-section{
+    width: calc(100% - 1.5vw);
+    height: 25vh;
+    margin-top: 1.5vw;
+    margin-left: 1.5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.extra-section img{
+    width: calc(100% / 4);
+    height: 25vh;
+}
+.extra-section img:first-of-type{
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+.extra-section img:last-of-type{
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.main-reviews{
+    width: calc(100% - 2vw);
+    height: 210vh;
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+.review-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.row-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-review{
+    width: 70%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-review img{
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+}
+.image-review p{
+    margin-top: 1vh;
+    font-size: 0.55em;
+}
+.text-review{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.text-review p{
+    font-size: 0.55em;
+}
+.text-review p:last-of-type{
+    margin-top: 2vh;
+    font-size: 0.45em;
+    color: var(--dark_gray);
+}
+.review-div{
+    padding-top: 0.2vh;
+    width: 70%;
+    background-color: var(--dark_gray);   
+}

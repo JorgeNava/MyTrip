@@ -1,0 +1,107 @@
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: var(--gray);
+}
+.card{
+    width: 80vw;
+    height: 90vh;
+    margin: 3vh 10vw 7vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;  
+    background-color: white;
+}
+.image-section{
+    width: 40vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-section img{
+    width: 24vw;
+    height: 30vw;
+}
+.image-section a{
+    margin-top: 3vh;
+    font-size: 0.6em;
+    text-decoration: underline;
+}
+
+.content-section{
+    width: 40vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+header{
+    width: 40vw;
+    height: fit-content;
+    margin: 13vh 0 3vh;
+}
+header p{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.element{
+    margin: 4vh 0;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: none;
+    font-size: 0.7em;
+    color: var(--dark_gray);
+    border-bottom: 1px solid black;
+}
+.element p{
+    font-size: 0.7em;
+    margin-left: 1vw;
+}
+#box{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.save-zone{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 15vw;
+    height: 5vh;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+.btn p{
+    font-size: 1.4em;
+    color: white;
+}
+.alt-login{
+    margin-top: 12vh;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+.alt-login p{
+    font-size: 0.65em;
+    margin-right: 1vw;
+}
+.alt-login img{
+    width: 7vw;
+    height: 4vh;
+}

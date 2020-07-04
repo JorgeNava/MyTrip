@@ -1,0 +1,133 @@
+:root{
+    --color_1: #282828;
+    --color_2: #0B5844;
+    --color_3: #A2DFFA;
+    --color_4: #EAEAC6;
+    --color_5: #CCD4C5;
+}
+ 
+body{
+    font-family: var(--primary_font);
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+/** REGISTER **/
+.A-register{
+    width: 30vw;
+    height: 100vh;
+    background-image: url(../img/Paisajes/registerguide.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-position-x: -15vw;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.A_content-register{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.img_back-register{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: .7;
+    background: linear-gradient(to bottom, #0B5844,#EAEAC6);
+}
+.A_headerText-register{
+    color: var(--color_4);
+    font-size: 1.5em;
+}
+.A_content-register p{
+    color: var(--color_5);
+    font-size: .7em;
+    font-weight: bold;
+}
+
+/** FORM SECTION **/
+.form-register{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;  
+}
+header{
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+header h2{
+    font-size: .9em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: var(--purple);
+}
+header h2::after{
+    color: black;
+    content: " TRIP";
+}
+.row{
+    width: 60vw;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;  
+    margin: 2vh auto;
+}
+.row:first-of-type{
+    margin-top: 3vh;
+}
+.row-element{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 5vw;  
+}
+.row-element p{
+    font-size: 0.6em;
+}
+.input-1{
+    width: 60vw;
+    height: 10vh;   
+}
+.save-zone{
+    width: 70vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+}
+.btn{
+    width: 40vw;
+    height: 5vh;
+}
+.btn p{
+    font-size: 1.4em;
+}

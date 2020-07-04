@@ -1,0 +1,30 @@
+header{
+    background-color: var(--dark);
+}
+header a, .aside-header h2::after{
+    color: white;
+}
+.account-content{
+    background-color: var(--dark);
+    color: white;
+}
+.account-content p{
+    color: white;
+}
+main{
+    width: 100vw;
+    height: 85vh;
+    background-color: var(--dark_light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5vh;
+}
+h1{
+    padding: 5vh 5vw;
+    font-size: 1em;
+    background-color: var(--green);
+    color: white;
+}

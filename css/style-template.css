@@ -1,0 +1,221 @@
+:root {
+    --purple: #7C4DC6;
+    --purple2: rgb(148, 117, 197);
+    --light_purple: rgba(139, 107, 190, 0.4);
+    --light_purple2: rgb(185, 170, 209);
+    --white: white;
+    --green: #4CA566;
+    --blue:#2D6194;
+    --gray: #DFDFDF;
+    --red: #ff0000;
+    --orange: #F89F43;
+    --dark: #303030;
+    --dark2: #2A2A2A;
+    --dark_light: #353535;
+    --dark_gray: rgba(143, 140, 140, 0.829);
+    --primary_font: 'Cinzel', serif;
+    --secundary_font: 'EB Garamond', serif;
+    --cursive_font: 'Satisfy', cursive;
+}
+*{
+    list-style: none;
+    font-style: none;
+    font-family: var(--general-font);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+html::-webkit-scrollbar{
+    display: none; /*Hide scrollbar on most navigators*/
+} 
+html{
+    font-size: calc((1em + 1vw));
+    -ms-overflow-style: none;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.checked {
+    color: orange;
+}
+
+.header{
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.aside-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+.aside-header h2{
+    font-size: .9em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: var(--purple);
+}
+.aside-header h2::after{
+    color: black;
+    content: " TRIP";
+}
+.navegador{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 55%;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.nav-list li:not(:last-of-type){
+    margin-right: 4vw;
+}
+.nav-list a{
+    font-size: .5em;
+}
+.nav-list li:hover a{
+    color: var(--purple);
+}
+.nav-list li:first-child a{
+    color: var(--purple);
+}
+.account-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 10; 
+}
+
+.logo{
+    margin: 3vh 4vw 0;
+    height: 5vw;
+    width: 5vw;
+}
+.logo:hover ~ .account-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.account-content:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.account-content{
+    position: absolute;
+    top: 9vh;
+    bottom: 0;
+    right: 0;
+    left: 81vw;
+    width: 17vw;
+    height: fit-content;
+    display: none;
+    font-size: 0.5em;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    padding: 1vh 1vw;
+}
+.account-redirection{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.account-redirection p{
+    margin: 0.5em 0;
+}
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(92, 78, 114);
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 3vh 0;
+}
+.f-column1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: calc(100vw / 5);
+}
+.f-column1 img{
+   width: 4em;
+   height: 4em;
+}
+.f-column2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: calc(100vw / 5);
+    color: white;
+}
+.f-column2 p:first-of-type{
+    font-size: .5em;
+    color: var(--orange);
+    margin-bottom: 0.5vh;
+}
+.f-column2 p{
+    font-size: 0.4em;
+}
+.f-column3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: calc(100vw / 5);
+}
+.f-column3 p:first-of-type{
+    font-size: .5em;
+    color: var(--orange);
+    margin-bottom: 0.5vh;
+}
+.f-column3 a{
+    font-size: .4em;
+    color: white;
+}
+.f-column4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: calc(100vw / 5);
+}
+.f-column4 p:first-of-type{
+    font-size: .5em;
+    color: var(--orange);
+    margin-bottom: 1vh;
+}
+.f-column4 p{
+    font-size: .4em;
+}
+.f-column5{
+    height: 100%;
+    width: calc(100vw / 5);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.f-column5 img{
+    width: 2em;
+    height: 2em;
+}
